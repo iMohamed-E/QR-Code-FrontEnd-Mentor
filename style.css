@@ -1,0 +1,59 @@
+/* ==================== Global Setup ====================*/
+* {
+  font-family: "Outfit", sans-serif;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+--White:      hsl(0, 0%, 100%);
+--Light-Blue: hsl(212, 45%, 89%);
+--Mid-Blue:   hsl(216, 15%, 48%);
+--Dark-Blue:  hsl(218, 44%, 22%);
+}
+
+/* ==================== Design ====================*/
+body {
+  background-color: var(--Light-Blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.Container {
+  background-color: var(--White);
+  box-shadow: 0 10px 10px #00000010;
+  border-radius: 20px;
+  padding: 17px;
+  max-width: 20em;
+  max-height: 35em;
+}
+
+.Container img {
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+.Container h1 {
+  font-size: 21px;
+  color: var(--Dark-Blue);
+  text-align: center;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+.Container p {
+  font-size: 15px;
+  color: var(--Mid-Blue);
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 0 20px;
+}
